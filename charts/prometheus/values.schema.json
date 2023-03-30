@@ -394,6 +394,9 @@
                         }
                     }
                 },
+                "portName": {
+                    "type": "integer"
+                },
                 "prefixURL": {
                     "type": "string"
                 },

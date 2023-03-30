@@ -134,6 +134,9 @@ spec:
           {{- if .Values.server.hostPort }}
               hostPort: {{ .Values.server.hostPort }}
           {{- end }}
+          {{- if .Values.server.portName }}
+              name: {{ .Values.server.portName }}
+          {{- end }}          
           readinessProbe:
             {{- if not .Values.server.tcpSocketProbeEnabled }}
             httpGet:

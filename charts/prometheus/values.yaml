@@ -508,6 +508,9 @@ server:
   # Use hostPort
   # hostPort: 9090
 
+  # Name for the server container port
+  # portName: prometheus
+
   ## Vertical Pod Autoscaler config
   ## Ref: https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler
   verticalAutoscaler:
